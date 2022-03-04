@@ -29,4 +29,5 @@ from .raw.gitee import GiteeOcean
 
 def get_connectors():
 
-    return {"gitee": [Gitee, GiteeOcean, GiteeEnrich, GiteeCommand]}
+    return {"gitee": [Gitee, GiteeOcean, GiteeEnrich, GiteeCommand],
+    "github2": [Gitee, GiteeOcean, GiteeEnrich2, GiteeCommand]}
